@@ -1,0 +1,329 @@
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+.firstLayout{
+    height: 650px;
+    background-image: url(images/SsRWfy.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.firstLayout > div{
+    text-align: center;
+    padding-top: 21%;
+}
+.firstLayout > div > h2,h3{
+    color: 	rgb(169,169,169);
+}
+.firstLayout > div > h2{
+    margin-bottom: 1em;
+    text-shadow: 0px 1px 2px rgb(90, 90, 90);
+}
+.firstLayout > div > h2 > span{
+    color: rgb(0, 95, 143);
+    font-style: italic;
+}
+.firstLayout > div > h3,div{
+    margin-bottom: .5em;
+}
+.btn-primary{
+    margin-top: .5em;
+    background-color: rgba(0, 0, 182, 0) !important;
+    border: 2px solid rgb(169,169,169) !important ;
+    color: rgb(169,169,169) !important ;
+}
+.bi-arrow-right-short{
+    font-size: 2em ;
+    font-weight: bolder;
+}
+.btn-primary:hover{
+    background-color: white !important;
+    border: 2px solid white !important;
+    color: rgb(0, 45, 112) !important;
+}
+div > .navbar{
+    width: 100%;
+    height:5%;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: -7.6px;
+    background-color:  rgb(0, 4, 44) !important;
+}
+div > .navbar > h4{
+    color: white;
+    padding-left: 6%;
+    display: inline;
+}
+div > .navbar div span ul li > .nav-home{
+    color:rgb(0, 95, 143) !important ;
+}
+div > .navbar div span ul li > a{
+    color: rgb(169,169,169)!important;
+}
+.line{
+    background-color: rgb(0, 95, 143);
+    width: 100%;
+    height: 8px;
+    margin-top: -3px;
+}
+.about{
+    background-image: url(images/brandi-redd-aJTiW00qqtI-unsplash.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -1em;
+}
+.about > .aboutSub{
+    text-align: center;
+    padding: 5em 0px 1em 0px ;
+}
+.about > .aboutSub > div > h1{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+}
+.about > .aboutSub > .myImage{
+    border: 2px solid rgb(190, 129, 14);
+    box-shadow: 1px 1px 10px orangered;
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    background-image: url(images/myimage.jpg);
+    background-size: cover;
+    background-size: 250px;
+    margin: 2em auto;
+}
+.about > .aboutSub > h5{
+    color: white;
+    margin: 0px 3em 0px 3em;
+}
+
+.about > .aboutSub > .learned > h2{
+    color: whitesmoke;
+}
+.about > .aboutSub > .learned{
+    border:  1px solid rgb(190, 129, 14) ;
+    width: fit-content;
+    border-radius: 40px;
+    margin: 4em auto;
+    padding: 1em 1em 1em 1em;
+    color: white;
+}
+.about > .aboutSub > .learned > ul > li{
+    list-style: none;
+    text-align: left;
+}
+.portfolio{
+    background-color: #677E8C;
+    width: 100%;
+    z-index: -1;
+    padding: 5em 5em 5em 5em;
+    margin-top: -10px;
+}
+.portfolio > .heading > h1{
+    text-decoration: underline;
+    font-style: oblique;
+    text-align: center;
+    font-weight: bolder;
+}
+.portfolio > table {
+    margin:0px auto;
+}
+.portfolio > .heading > h3{
+    text-align: center;
+    color:white;
+    padding: 1em;
+}
+.portfolio .periodicTable > h2 ,.portfolio .randomForm > h2 ,.portfolio .saylaniWeb > h2{
+    color: rgb(26, 26, 26) ;
+    font-weight: bold;
+}
+.portfolio .periodicTable > #line , .portfolio .randomForm > #line ,.portfolio .saylaniWeb > #line{
+    margin-top: -1em;
+    color: rgb(190, 129, 14) ;
+}
+.portfolio .periodicTable > h5, .portfolio .randomForm > h5 , .portfolio .saylaniWeb > h5{
+    color: white;
+    margin-top: 10px;
+}
+.portfolio .tptImage{
+    border: 1.5px solid rgb(99, 99, 99);
+    box-shadow: 3px 5px 5px 5px rgb(59, 59, 59);
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url(images/tpt.PNG);
+    background-size: cover;
+    background-size: 400px 250px ;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+.portfolio .formImage{
+    border: 1.5px solid rgb(99, 99, 99);
+    box-shadow: 3px 5px 5px 5px rgb(59, 59, 59);
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url(images/forms.PNG);
+    background-size: cover;
+    background-size: 400px 250px ;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+.portfolio .webImage{
+    border: 1.5px solid rgb(99, 99, 99);
+    box-shadow: 3px 5px 5px 5px rgb(59, 59, 59);
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url(images/sayanipage.PNG);
+    background-size: cover;
+    background-size: 400px 250px ;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+.portfolio .btn-outline-secondary{
+    font-weight: bold;
+    border: 2px solid rgb(58, 58, 58) !important ;
+    color: rgb(19, 19, 19) !important ;
+}
+.portfolio .btn-outline-secondary:hover{
+    background-color: rgb(0, 4, 44)!important;
+    border: 2px solid rgb(0, 4, 44)!important;
+    color: rgb(169,169,169) !important;
+}
+.contact{
+    text-align: center;
+    background-image: url(images/pexels-photo-235994.jpeg);
+    background-size: cover;
+    background-size: 100% 100%;
+    margin-top: -10px;
+}
+.contact h1{
+    text-decoration: underline;
+    font-style: oblique;
+    text-align: center;
+    font-weight: bolder;
+    padding: 2em 0px 1em 0px ;
+}
+.contact h2{
+    color:rgb(90, 90, 90) ;
+    margin-bottom: 1em;
+}
+.contact div{
+    margin-bottom: 2em;
+}
+.contact span{
+    margin-bottom: 5em;
+}
+.portfolio .bottom {
+    text-align: center;
+    margin-top: 5em;
+}
+.portfolio .bottom button{
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(58, 58, 58) !important ;
+    color: rgb(19, 19, 19) !important ;
+}
+.portfolio .bottom button:hover{
+    background-color: rgb(0, 4, 44)!important;
+    border: 2px solid rgb(0, 4, 44)!important;
+    color: rgb(169,169,169) !important;
+}
+.contact .workbutton{
+    color: rgb(19, 19, 19) !important ;
+    border: 2px solid rgb(58, 58, 58) !important ;
+}
+.contact .workbutton:hover{
+    background-color: rgb(0, 4, 44)!important;
+    border: 2px solid rgb(0, 4, 44)!important;
+    color: rgb(169,169,169) !important;
+    box-shadow: 3px 3px 6px rgb(70, 70, 70) !important;
+}
+.contact span a{
+    text-decoration: none;
+    color: rgb(19, 19, 19) ;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.contact span a:hover{
+    color: rgb(0, 95, 143) ;
+}
+.contact{
+    padding-bottom: 3em;
+}
+.footer{
+    background-color:rgb(0, 4, 44) ;
+    margin-top: -8px;
+}
+.footer p{
+    color: rgb(169,169,169);
+    padding: 2em 0em 2em 10%;
+}
+@media screen and (max-width: 1109px) {
+    .portfolio table .periodicTable{
+        margin-left: .1em;
+    }
+    .portfolio table .saylaniWeb{
+        margin-left: .1em;
+    }
+    .portfolio table .randomForm{
+        margin-left: .1em;
+    }
+    .portfolio table {
+        margin-left: -4.0em;
+    }
+    .portfolio table tr td{
+        display: inline-block;
+        margin: 0px auto;
+        width: auto !important;
+    }
+    .portfolio table .tptImage{
+        margin: 1em auto 4em;
+        
+    }
+    .portfolio table .formImage{
+        margin: 1em auto 4em;
+    }
+    .portfolio table .webImage{
+        margin: 1em auto ;
+    }
+  }
+  @media screen and (max-width: 611px) {
+    .portfolio table tr td{
+        display: inline-block;
+        margin: 0px auto;
+        width: auto !important;
+    }
+    .portfolio table .tptImage{
+        margin: 1em auto 4em;
+        
+    }
+    .portfolio table .formImage{
+        margin: 1em auto 4em;
+    }
+    .portfolio table .webImage{
+        margin: 1em auto ;
+    }
+  }
+  @media screen and (max-width: 440px){
+    .portfolio table .tptImage{
+        max-width: 320px;
+        background-size: 100% 100%;
+    }
+    .portfolio table .formImage{
+        max-width: 320px;
+        background-size: 100% 100%;
+    }
+    .portfolio table .webImage{
+        max-width: 320px;
+        background-size: 100% 100%;
+    }
+  }
